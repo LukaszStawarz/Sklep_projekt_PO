@@ -69,11 +69,11 @@
     "com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable": "ALL",
     "last_opened_file_path": "C:/Users/ja/IdeaProjects/SklepProjekt",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Global Libraries",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "settings.editor.selected.configurable": "ktor"
   }
 }]]></component>
   <component name="RunManager" selected="Application.Main">
@@ -177,7 +177,8 @@
       <workItem from="1675104149133" duration="282000" />
       <workItem from="1675104468528" duration="2196000" />
       <workItem from="1675174804196" duration="325000" />
-      <workItem from="1675254803183" duration="12367000" />
+      <workItem from="1675254803183" duration="13032000" />
+      <workItem from="1675356765308" duration="5026000" />
     </task>
     <servers />
   </component>
@@ -199,5 +200,9 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

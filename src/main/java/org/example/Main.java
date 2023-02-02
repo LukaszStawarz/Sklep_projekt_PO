@@ -151,7 +151,7 @@ public class Main {
                 double cenaProduktu = produkty2.getCena();
                 int wagaProduktu = produkty2.getWaga();
                 String nazwy1 = produkty2.getNazwa_produktu();
-                System.out.println(nazwy1 + " " + wagaProduktu + " g\t-\t " + koszyk_produkties.get(i).getIlosc() + " szt\t-\t " + cenaProduktu + " zł/szt");
+                System.out.println(nazwy1 + " " + " -\t " + koszyk_produkties.get(i).getIlosc() + " szt\t-\t " + cenaProduktu + " zł/szt");
             }
             break;
         }
@@ -176,7 +176,7 @@ public class Main {
             int iloscProduktow = koszyk_produkt.getIlosc();
             suma += cenaProduktu * iloscProduktow;
         }
-        System.out.println("Łączny koszt zamówienia wynosi: " + suma);
+        System.out.println("Łączny koszt zamówienia wynosi: " + Math.round(suma * 100.0) / 100.0+ " zł");
         // Iteracja po liście promocji i sprawdzenie czy suma spełnia warunek progu promocji od największej
 
         for (Promocje promocja : promocje1) {
@@ -185,7 +185,7 @@ public class Main {
                 break;
             }
         }
-        System.out.println("Łączny koszt zamówienia po naliczeniu promocji wynosi:" + suma);
+        System.out.println("Łączny koszt zamówienia po naliczeniu promocji wynosi:" + Math.round(suma * 100.0) / 100.0+ " zł");
 
         //płatność,podsumowanie,losowy pracownik
         while (true) {
@@ -205,6 +205,7 @@ public class Main {
                     break;
                 }
             } else if (wybor1 == 2) {
+                System.out.println("Płatność zaakceptowana.");
                 wypiszPrzygotowanieZamowienia();
                 break;
             }
